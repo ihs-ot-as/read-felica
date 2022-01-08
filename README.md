@@ -27,11 +27,11 @@
      
 ## コマンドオプション Command options
  Commanderを使用して実装されている。最後の
-      node . 
+      <code> node . </code>
  のところで指定されたい。
  
  Implemented with Commander. Specify these when you type
-      node .
+     <code> node . </code>
  according to your needs.
  
     -d : バックエンドサーバの場所を指定する。デフォルトでは localhost:5000
