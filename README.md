@@ -14,7 +14,9 @@
  <li> Pasori (RC-S300)</li>
  </ol>
  恐らくMacでも動作すると思われるものの、動作確認はしていない。UbuntuなどはPasoriがドライバを提供していないため、動作確認をしていない。
- The program should run on a Mac too, but I didn't test it. As for other OS's such as Ubuntu, the driver is not provided by the manufacturer, and I haven't figured out how to get it working.
+ 
+ The program should run on a Mac too, but I didn't test it (...simply because I don't have a Mac).
+ As for other OS's such as Ubuntu, the driver is not provided by the manufacturer, and I haven't figured out how to get it working.
  
  ## 手順 How to start the application
  
