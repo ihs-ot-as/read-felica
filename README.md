@@ -5,7 +5,7 @@
  save-felica バックエンドにはHTTPで送信をしている。なお送信時に暗号化はそれ自体ではなされていないためHTTPSになっていない場合は傍受および man in the middle attack の可能性があること注意されたい。
  
  This repository contains a Node.js application that reads a Felica card and sends the data to a backend service, which is ¨save-felica¨.
- Note the communication between the two are made in HTTP, and the application by itself doesn't support encryption; if you send the data over HTTP instead of HTTPS, you are vulnerable to the man in the middle attack.
+ Note that the communication between the two are made in HTTP, and the application by itself doesn't support encryption; if you send the data over HTTP instead of HTTPS, you are vulnerable to the man in the middle attack.
  
  
  ## 用意するもの Prerequisites
