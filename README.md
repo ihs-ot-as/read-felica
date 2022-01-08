@@ -1,7 +1,7 @@
 ﻿# read-felica
 
 ## 概要 Summary
- このレポジトリは日本のFelica規格のカードを読み込み、別に指定する save-felica データベースに送信するものである。
+ このレポジトリは日本のFelica規格のカードを読み込み、別に指定する save-felica サービスに送信するものである。
  save-felica バックエンドにはHTTPで送信をしている。なお送信時に暗号化はそれ自体ではなされていないためHTTPSになっていない場合は傍受および man in the middle attack の可能性があること注意されたい。
  
  This repository contains a Node.js application that reads a Felica card and sends the data to a backend service, which is ¨save-felica¨.
