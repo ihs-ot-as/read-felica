@@ -52,9 +52,11 @@
 First of all, this code couldn't have been possible without this post on Qiita. A huge thank you goes to the poster.
 [https://qiita.com/gebo/items/cb2dd393170767852fb3](https://qiita.com/gebo/items/cb2dd393170767852fb3)
 
-To sum up, the program sends two APDU commands to the felica card. The former specifies the service in the card, and the latter actually tells the card to send the data specified. 
+To sum up, the program sends two APDU commands to the felica card. The former specifies the service in the card, and the latter actually tells the card to send the data specified.
+
     FF:A4:00:01:02:0F:09
     FF:B0:00:00:00
+
 The second last 00 is for pagination, so the program increments the page number until it can no longer read out data.
 
 
