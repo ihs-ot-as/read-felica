@@ -52,7 +52,7 @@
     FF:B0:00:00:00
 
 
-First of all, this code would't have been possible without this post on Qiita. A huge thank you goes to the poster.
+First of all, this code wouldn't have been possible without this post on Qiita. A huge thank you goes to the poster.
 [https://qiita.com/gebo/items/cb2dd393170767852fb3](https://qiita.com/gebo/items/cb2dd393170767852fb3)
 
 To sum up, the program sends two APDU commands to the felica card. The former specifies the service in the card, and the latter actually tells the card to send the data specified.
