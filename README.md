@@ -1,4 +1,4 @@
-﻿# save-felica-data
+﻿# read-felica
 
 ## 概要 Summary
  このレポジトリは日本のFelica規格のカードを読み込み、別に指定する save-felica データベースに保存するものである。
