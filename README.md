@@ -25,11 +25,11 @@
      
 ## コマンドオプション Command options
  Commanderを使用して実装されている。最後の
-     node . 
+      node . 
  のところで指定されたい。
  
  Implemented with Commander. Specify these when you type
-     node .
+      node .
  according to your needs.
  
     -d : バックエンドサーバの場所を指定する。デフォルトでは localhost:5000
@@ -39,20 +39,20 @@
     -p : if set the connection will be made in https. Defaults to false.
      
 ## 中でやっている内容 How does this work
-まず、以下のQiitaの投稿がなければ作成できなかった。作成者に感謝を述べたい。
+まず、次のQiitaの投稿がなければ作成できなかった。作成者に感謝を述べたい。
 [https://qiita.com/gebo/items/cb2dd393170767852fb3](https://qiita.com/gebo/items/cb2dd393170767852fb3)
 
 上記の投稿に書かれている通り、以下2つのAPDUコマンドをカードに送信している。
 うち前者でFelicaカード内のサービスの選択、後者で実際の経歴の読み取りを行う。
 後ろから二つ目の00のところでpaginationをすることが可能で、読み取れるだけ取得している。
--FF:A4:00:01:02:0F:09
--FF:B0:00:00:00
+    FF:A4:00:01:02:0F:09
+    FF:B0:00:00:00
 
 First of all, this code couldn't have been possible without this post on Qiita. A huge thank you goes to the poster.
 [https://qiita.com/gebo/items/cb2dd393170767852fb3](https://qiita.com/gebo/items/cb2dd393170767852fb3)
 To sum up, the program sends two APDU commands to the felica card. The former specifies the service in the card, and the latter actually tells the card to send the data specified. 
--FF:A4:00:01:02:0F:09
--FF:B0:00:00:00
+    FF:A4:00:01:02:0F:09
+    FF:B0:00:00:00
 The second last 00 is for pagination, so the program increments the page number until it can no longer read out data.
 
 
